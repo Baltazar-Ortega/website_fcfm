@@ -1,0 +1,18 @@
+.img_header{
+    width: 380px;
+}
+
+#input-boton{
+    width: 200px;
+}
+
+.navbar-brand{
+    margin-right: 1.3rem;
+}
+
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(50%)
+}
+
