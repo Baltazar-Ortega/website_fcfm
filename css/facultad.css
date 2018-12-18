@@ -1,0 +1,50 @@
+#bg-info{
+    background-color: #EDEDED;
+}
+
+#navbar-opciones{
+    padding-left: 125px;
+}
+
+.boton-ex-directores{
+    width: 100%;
+}
+
+.btn-opciones{
+    background-color: #1E4EA1;
+}
+
+
+
+@media screen and (max-width: 1036px){
+    #navbar-opciones{
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .contenedor-opciones{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #navbar-opciones{
+        padding-left: 0;
+        margin-bottom: 890%;
+    }
+    .boton-ex-directores{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #navbar-opciones{
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    #navbar-opciones .navbar-nav .nav-item{
+        width: 60%;
+    }
+    .boton-ex-directores{
+        display: block;
+    }
+}
