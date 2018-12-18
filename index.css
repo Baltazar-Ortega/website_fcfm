@@ -201,3 +201,15 @@ iframe{
     }
     
 }
+
+@media screen and (max-width: 478px){
+    .img-enlace{
+        margin: 6px;
+        margin-bottom: 25px;
+    }
+    .contenedor-enlaces{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
