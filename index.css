@@ -67,12 +67,31 @@ h1{
     background-color: white;
 }
 
+
+
+.img-noticias{
+    width: 57%;
+    height: 100%;
+    margin-right: 5%;
+    border-radius: 2%;
+}
+
+.btn-fcfm{
+    background-color: #0C3762;
+    width: 45%;
+}
+
+
 .titulo-licenciaturas,
-.titulo-avisos{
+.titulo-avisos,
+.titulo-noticias{
     color: #666666;
 }
 
 
+@media screen and (max-width: 1200px){
+    
+}
 @media screen and (max-width: 992px){
     h1{
         font-size: 1.5em;
