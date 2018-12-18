@@ -10,10 +10,11 @@
     margin-right: 1.3rem;
 }
 
-#main .carousel-inner img{
+#main .carousel-inner .img-slider{
     max-height: 80vh;
     object-fit: cover;
-    filter: grayscale(-50%)
+    filter: brightness(60%);
+    
 }
 
 #carousel{
@@ -42,4 +43,48 @@
 .img-logo-uanl{
     height: 127px;
     width: 65px;
+}
+
+.img-uanl-blanco{
+    padding-top: 25px;
+}
+
+h1{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 37px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
+.carousel-indicators li{
+    background-color: yellow;
+}
+
+.carousel-indicators .active{
+    background-color: white;
+}
+
+.titulo-licenciaturas,
+.titulo-avisos{
+    color: #666666;
+}
+
+
+@media screen and (max-width: 992px){
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 554px){
+    h1{
+        font-size: 1.2em;
+    }
+    .img-logo-uanl{
+        height: 100px;
+        width: 45px;
+    }
 }
