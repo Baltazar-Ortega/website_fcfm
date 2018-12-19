@@ -1,0 +1,21 @@
+.lista-licenciaturas{
+    margin-top: 48px;
+    width: 100%;
+}
+
+@media screen and (max-width: 992px){
+    #navbar-opciones{
+        padding-left: 0;
+        margin-bottom: 1500%;
+    }
+    .lista-licenciaturas{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #navbar-opciones{
+        
+        margin-bottom: 0;
+    }
+}
