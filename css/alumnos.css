@@ -1,0 +1,28 @@
+.lista-labs{
+    list-style:none; 
+    padding-left: 0;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.texto-otros-servicios{
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 1200px){
+    .texto-otros-servicios{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .texto-otros-servicios{
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .texto-otros-servicios{
+        font-size: .67em;
+    }
+}
